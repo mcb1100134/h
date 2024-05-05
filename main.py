@@ -7,8 +7,8 @@ from copypaste import CopyPaste
 class BotInstance:
     def __init__(self, loop=None):
         self.loop = loop
-        self.prefix = "cp2"
-        self.token = "TOKEN"
+        self.prefix = "/"
+        self.token = "MTIxMDYwOTYyNTgwOTAzMTI1OA.GgTpVd.sgeINZW7O-nT-7zvFVndqy8BZi5tuwAtFqSKPc"
 
         self.bot = commands.Bot(command_prefix=self.prefix, loop=self.loop, fetch_offline_members=False)
 
